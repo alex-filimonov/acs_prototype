@@ -1,0 +1,112 @@
+[Tue Feb 21 09:41:26.012638 2017] [core:error] [pid 15176:tid 139929248925440] [client 192.168.206.1:57303] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Feb 21 09:42:48.168249 2017] [core:error] [pid 15177:tid 139929128515328] [client 192.168.206.1:57308] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Feb 21 09:43:57.319109 2017] [core:error] [pid 15176:tid 139929240524544] [client 192.168.206.1:57337] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Feb 21 10:31:57.134323 2017] [cgid:error] [pid 15177:tid 139929153693440] [client 192.168.206.1:57687] End of script output before headers: index.py
+[Tue Feb 21 10:36:43.556949 2017] [cgid:error] [pid 15177:tid 139929248925440] [client 192.168.206.1:57718] End of script output before headers: index.py
+[Tue Feb 21 10:37:45.466323 2017] [cgid:error] [pid 15176:tid 139929153693440] [client 192.168.206.1:57724] End of script output before headers: index.py
+[Tue Feb 21 10:37:46.282392 2017] [cgid:error] [pid 15177:tid 139929128515328] [client 192.168.206.1:57725] End of script output before headers: index.py
+[Tue Feb 21 10:54:13.745616 2017] [cgid:error] [pid 15177:tid 139929136908032] [client 192.168.206.1:57897] End of script output before headers: index.py
+[Tue Feb 21 10:54:40.866737 2017] [cgid:error] [pid 15177:tid 139929120122624] [client 192.168.206.1:57902] End of script output before headers: index.py
+[Tue Feb 21 10:54:50.137191 2017] [cgid:error] [pid 15176:tid 139929240524544] [client 192.168.206.1:57904] End of script output before headers: index.py
+[Tue Feb 21 13:51:47.584062 2017] [cgid:error] [pid 15176:tid 139929044588288] [client 192.168.206.1:58719] End of script output before headers: index.py
+[Tue Feb 21 13:52:22.113976 2017] [cgid:error] [pid 15177:tid 139929120122624] [client 192.168.206.1:58723] End of script output before headers: index.py
+[Tue Feb 21 13:52:48.220128 2017] [cgid:error] [pid 15176:tid 139929027802880] [client 192.168.206.1:58726] End of script output before headers: index.py
+[Tue Feb 21 13:52:48.973755 2017] [cgid:error] [pid 15177:tid 139929111729920] [client 192.168.206.1:58727] End of script output before headers: index.py
+[Tue Feb 21 13:53:13.855540 2017] [cgid:error] [pid 15177:tid 139929069766400] [client 192.168.206.1:58732] End of script output before headers: index.py
+[Tue Feb 21 13:53:15.705932 2017] [cgid:error] [pid 15176:tid 139929019410176] [client 192.168.206.1:58733] End of script output before headers: index.py
+[Tue Feb 21 13:53:32.987461 2017] [cgid:error] [pid 15176:tid 139929011017472] [client 192.168.206.1:58739] End of script output before headers: index.py
+[Tue Feb 21 14:23:30.410092 2017] [cgid:error] [pid 15176:tid 139929145300736] [client 192.168.206.1:58881] End of script output before headers: index.py
+[Tue Feb 21 14:32:28.528686 2017] [cgid:error] [pid 15177:tid 139929011017472] [client 192.168.206.1:58941] End of script output before headers: index.py
+[Tue Feb 21 14:43:19.563951 2017] [cgid:error] [pid 15177:tid 139929145300736] [client 192.168.206.1:59014] End of script output before headers: index.py
+[Tue Feb 21 14:47:49.305563 2017] [cgid:error] [pid 15176:tid 139929052980992] [client 192.168.206.1:59050] malformed header from script 'index.py': Bad header: <app.layout.layout object at 0
+[Tue Feb 21 14:47:51.288850 2017] [cgid:error] [pid 15177:tid 139929153693440] [client 192.168.206.1:59051] malformed header from script 'index.py': Bad header: <app.layout.layout object at 0
+[Tue Feb 21 15:01:24.140364 2017] [cgid:error] [pid 15177:tid 139929248925440] [client 192.168.206.1:59145] End of script output before headers: index.py
+[Tue Feb 21 15:01:36.372779 2017] [cgid:error] [pid 15176:tid 139929011017472] [client 192.168.206.1:59149] End of script output before headers: index.py
+[Tue Feb 21 15:03:05.928565 2017] [cgid:error] [pid 15177:tid 139929136908032] [client 192.168.206.1:59162] End of script output before headers: index.py
+[Tue Feb 21 15:03:23.400058 2017] [cgid:error] [pid 15177:tid 139929120122624] [client 192.168.206.1:59166] End of script output before headers: index.py
+[Tue Feb 21 15:04:04.440420 2017] [cgid:error] [pid 15177:tid 139929103337216] [client 192.168.206.1:59176] End of script output before headers: index.py
+[Tue Feb 21 15:04:32.923396 2017] [cgid:error] [pid 15176:tid 139928994232064] [client 192.168.206.1:59179] End of script output before headers: index.py
+[Tue Feb 21 15:05:03.296167 2017] [cgid:error] [pid 15177:tid 139929052980992] [client 192.168.206.1:59188] End of script output before headers: index.py
+[Tue Feb 21 15:05:37.000833 2017] [cgid:error] [pid 15176:tid 139929248925440] [client 192.168.206.1:59191] End of script output before headers: index.py
+[Tue Feb 21 15:06:02.031128 2017] [cgid:error] [pid 15177:tid 139929002624768] [client 192.168.206.1:59196] End of script output before headers: index.py
+[Tue Feb 21 15:06:06.089416 2017] [cgid:error] [pid 15176:tid 139929240524544] [client 192.168.206.1:59197] End of script output before headers: index.py
+[Tue Feb 21 15:06:44.800559 2017] [cgid:error] [pid 15176:tid 139929153693440] [client 192.168.206.1:59200] End of script output before headers: index.py
+[Tue Feb 21 15:06:46.196014 2017] [cgid:error] [pid 15177:tid 139928977446656] [client 192.168.206.1:59201] End of script output before headers: index.py
+[Tue Feb 21 15:07:15.915913 2017] [cgid:error] [pid 15176:tid 139929145300736] [client 192.168.206.1:59203] End of script output before headers: index.py
+[Tue Feb 21 15:08:04.610641 2017] [cgid:error] [pid 15176:tid 139929136908032] [client 192.168.206.1:59210] End of script output before headers: index.py
+[Tue Feb 21 15:08:34.140435 2017] [cgid:error] [pid 15177:tid 139929086551808] [client 192.168.206.1:59214] End of script output before headers: index.py
+[Tue Feb 21 15:17:13.874599 2017] [cgid:error] [pid 15177:tid 139929011017472] [client 192.168.206.1:59337] Premature end of script headers: index.py
+[Tue Feb 21 15:23:25.639842 2017] [cgid:error] [pid 15177:tid 139929248925440] [client 192.168.206.1:59475] End of script output before headers: index.py
+[Tue Feb 21 15:26:57.725843 2017] [cgid:error] [pid 15176:tid 139929036195584] [client 192.168.206.1:59496] Premature end of script headers: index.py
+[Tue Feb 21 15:41:19.981280 2017] [cgid:error] [pid 15176:tid 139929162086144] [client 192.168.206.1:59657] Premature end of script headers: index.py
+[Tue Feb 21 16:02:08.079227 2017] [cgid:error] [pid 16349:tid 140296129099520] [client 192.168.206.1:59768] malformed header from script 'index.py': Bad header: <class 'NameError'>
+[Tue Feb 21 16:29:28.166847 2017] [cgid:error] [pid 16350:tid 140295945533184] [client 192.168.206.1:60056] End of script output before headers: index.py
+[Tue Feb 21 16:38:46.815630 2017] [autoindex:error] [pid 16349:tid 140295903569664] [client 192.168.206.1:60168] AH01276: Cannot serve directory /home/leo/emualator/web/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Feb 21 16:38:50.911918 2017] [autoindex:error] [pid 16349:tid 140295895176960] [client 192.168.206.1:60168] AH01276: Cannot serve directory /home/leo/emualator/web/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Feb 21 16:38:55.494543 2017] [autoindex:error] [pid 16349:tid 140296154302208] [client 192.168.206.1:60168] AH01276: Cannot serve directory /home/leo/emualator/web/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Feb 21 16:39:06.863988 2017] [autoindex:error] [pid 16350:tid 140296021067520] [client 192.168.206.1:60172] AH01276: Cannot serve directory /home/leo/emualator/web/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Feb 21 16:46:17.678678 2017] [cgid:error] [pid 16610:tid 139859771520768] [client 192.168.206.1:60231] End of script output before headers: index.py
+[Tue Feb 21 16:52:37.352470 2017] [cgid:error] [pid 16610:tid 139859729557248] [client 192.168.206.1:60275] End of script output before headers: index.py
+[Tue Feb 21 18:21:52.899180 2017] [cgid:error] [pid 16611:tid 139859679201024] [client 192.168.206.1:60551] malformed header from script 'index.py': Bad header: /home/leo/emualator/web/app/co
+[Tue Feb 21 18:22:34.508818 2017] [cgid:error] [pid 16611:tid 139859662415616] [client 192.168.206.1:60561] End of script output before headers: index.py
+[Tue Feb 21 19:02:48.554150 2017] [cgid:error] [pid 16611:tid 139859578488576] [client 192.168.206.1:60721] End of script output before headers: index.py
+[Tue Feb 21 19:03:06.031258 2017] [cgid:error] [pid 16610:tid 139859654022912] [client 192.168.206.1:60726] malformed header from script 'index.py': Bad header: HTTP/1.1 302 Found
+[Tue Feb 21 19:04:23.124026 2017] [cgid:error] [pid 16610:tid 139859637237504] [client 192.168.206.1:60733] malformed header from script 'index.py': Bad header: HTTP/1.1 302 Found
+[Tue Feb 21 19:11:46.587833 2017] [cgid:error] [pid 16611:tid 139859586881280] [client 192.168.206.1:60834] End of script output before headers: index.py
+[Tue Feb 21 19:11:55.014863 2017] [cgid:error] [pid 16610:tid 139859612059392] [client 192.168.206.1:60835] End of script output before headers: index.py
+[Tue Feb 21 19:12:02.868385 2017] [cgid:error] [pid 16611:tid 139859637237504] [client 192.168.206.1:60838] End of script output before headers: index.py
+[Tue Feb 21 19:12:34.481239 2017] [cgid:error] [pid 16611:tid 139859620452096] [client 192.168.206.1:60840] End of script output before headers: index.py
+[Tue Feb 21 19:13:24.086466 2017] [cgid:error] [pid 16610:tid 139859603666688] [client 192.168.206.1:60843] End of script output before headers: index.py
+[Tue Feb 21 19:13:39.676236 2017] [cgid:error] [pid 16611:tid 139859612059392] [client 192.168.206.1:60847] End of script output before headers: index.py
+[Tue Feb 21 19:14:40.069094 2017] [cgid:error] [pid 16611:tid 139859754735360] [client 192.168.206.1:60853] End of script output before headers: index.py
+[Tue Feb 21 19:14:42.085179 2017] [cgid:error] [pid 16611:tid 139859763128064] [client 192.168.206.1:60854] End of script output before headers: index.py
+[Tue Feb 21 19:14:49.947067 2017] [cgid:error] [pid 16610:tid 139859595273984] [client 192.168.206.1:60857] End of script output before headers: index.py
+[Tue Feb 21 19:18:38.953903 2017] [cgid:error] [pid 16610:tid 139859763128064] [client 192.168.206.1:60888] End of script output before headers: index.py
+[Wed Feb 22 06:34:46.718760 2017] [cgid:error] [pid 1463:tid 140129496368896] [client 192.168.206.1:50291] End of script output before headers: index.py
+[Wed Feb 22 09:28:08.581351 2017] [cgid:error] [pid 1936:tid 140129364580096] [client 192.168.206.1:53656] End of script output before headers: index.py
+[Wed Feb 22 09:28:09.601949 2017] [cgid:error] [pid 1936:tid 140129347794688] [client 192.168.206.1:53658] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 09:28:12.698673 2017] [cgid:error] [pid 1936:tid 140129339401984] [client 192.168.206.1:53657] End of script output before headers: index.py
+[Wed Feb 22 09:28:13.712622 2017] [cgid:error] [pid 1936:tid 140129331009280] [client 192.168.206.1:53660] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 10:30:04.855617 2017] [cgid:error] [pid 1935:tid 140129255474944] [client 192.168.206.1:54275] End of script output before headers: index.py, referer: http://192.168.206.3:8081/settings/index
+[Wed Feb 22 10:30:05.907589 2017] [cgid:error] [pid 1936:tid 140129521379072] [client 192.168.206.1:54277] End of script output before headers: index.py, referer: http://192.168.206.3:8081/settings/index
+[Wed Feb 22 15:04:34.316547 2017] [cgid:error] [pid 1936:tid 140129280653056] [client 192.168.206.1:56382] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:04:37.107384 2017] [cgid:error] [pid 1936:tid 140129255474944] [client 192.168.206.1:56383] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:04:51.562940 2017] [cgid:error] [pid 1936:tid 140129496200960] [client 192.168.206.1:56386] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:04:51.850455 2017] [cgid:error] [pid 1935:tid 140129496200960] [client 192.168.206.1:56387] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:05:04.205471 2017] [cgid:error] [pid 1935:tid 140129504593664] [client 192.168.206.1:56388] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:05:04.493584 2017] [cgid:error] [pid 1935:tid 140129322616576] [client 192.168.206.1:56389] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:15:13.112873 2017] [cgid:error] [pid 1936:tid 140129504593664] [client 192.168.206.1:56430] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:15:13.697441 2017] [cgid:error] [pid 1935:tid 140129305831168] [client 192.168.206.1:56431] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:17:50.665512 2017] [cgid:error] [pid 1936:tid 140129512986368] [client 192.168.206.1:56445] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:17:51.245294 2017] [cgid:error] [pid 1936:tid 140129521379072] [client 192.168.206.1:56446] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:30:57.399289 2017] [cgid:error] [pid 1936:tid 140129255474944] [client 192.168.206.1:56557] malformed header from script 'index.py': Bad header: HELLO WORLD
+[Wed Feb 22 15:31:04.073948 2017] [cgid:error] [pid 1936:tid 140129406543616] [client 192.168.206.1:56559] malformed header from script 'index.py': Bad header: HELLO WORLD, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:31:10.370832 2017] [cgid:error] [pid 1936:tid 140129347794688] [client 192.168.206.1:56567] malformed header from script 'index.py': Bad header: HELLO WORLD, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:31:14.000529 2017] [cgid:error] [pid 1936:tid 140129305831168] [client 192.168.206.1:56563] malformed header from script 'index.py': Bad header: HELLO WORLD, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:31:33.012973 2017] [cgid:error] [pid 1935:tid 140129289045760] [client 192.168.206.1:56575] malformed header from script 'index.py': Bad header: HELLO WORLD, referer: http://192.168.206.3:8081/default/index
+[Wed Feb 22 15:32:04.918940 2017] [cgid:error] [pid 1936:tid 140129255474944] [client 192.168.206.1:56588] malformed header from script 'index.py': Bad header: HELLO WORLD, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 11:16:39.061029 2017] [cgid:error] [pid 3788:tid 140129529771776] [client 192.168.206.1:60169] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 11:16:39.643100 2017] [cgid:error] [pid 3788:tid 140129398150912] [client 192.168.206.1:60170] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 11:16:45.312040 2017] [cgid:error] [pid 3788:tid 140129381365504] [client 192.168.206.1:60171] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 11:16:45.834518 2017] [cgid:error] [pid 3787:tid 140129398150912] [client 192.168.206.1:60172] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 13:37:23.633194 2017] [cgid:error] [pid 3788:tid 140129347794688] [client 192.168.206.1:61706] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 13:37:24.165445 2017] [cgid:error] [pid 3787:tid 140129289045760] [client 192.168.206.1:61707] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 13:37:34.038391 2017] [cgid:error] [pid 3788:tid 140129322616576] [client 192.168.206.1:61708] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 13:37:34.581539 2017] [cgid:error] [pid 3787:tid 140129496200960] [client 192.168.206.1:61709] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 13:41:22.240667 2017] [cgid:error] [pid 3787:tid 140129364580096] [client 192.168.206.1:61733] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 13:41:22.762188 2017] [cgid:error] [pid 3788:tid 140129414936320] [client 192.168.206.1:61734] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:08:12.408285 2017] [cgid:error] [pid 3788:tid 140129521379072] [client 192.168.206.1:63497] End of script output before headers: index.py, referer: http://192.168.206.3:8081/contact/index
+[Thu Feb 23 16:08:12.933484 2017] [cgid:error] [pid 3787:tid 140129305831168] [client 192.168.206.1:63498] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:08:15.678975 2017] [cgid:error] [pid 3788:tid 140129389758208] [client 192.168.206.1:63499] End of script output before headers: index.py, referer: http://192.168.206.3:8081/contact/index
+[Thu Feb 23 16:08:28.276812 2017] [cgid:error] [pid 3788:tid 140129305831168] [client 192.168.206.1:63504] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:08:28.809897 2017] [cgid:error] [pid 3788:tid 140129339401984] [client 192.168.206.1:63503] End of script output before headers: index.py, referer: http://192.168.206.3:8081/contact/index
+[Thu Feb 23 16:21:32.667932 2017] [cgid:error] [pid 3787:tid 140129331009280] [client 192.168.206.1:63686] malformed header from script 'index.py': Bad header: FROM params , referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:21:37.089086 2017] [cgid:error] [pid 3788:tid 140129289045760] [client 192.168.206.1:63687] malformed header from script 'index.py': Bad header: FROM params , referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:21:38.917922 2017] [cgid:error] [pid 3787:tid 140129314223872] [client 192.168.206.1:63688] malformed header from script 'index.py': Bad header: FROM device, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:21:39.950046 2017] [cgid:error] [pid 3787:tid 140129414936320] [client 192.168.206.1:63692] malformed header from script 'index.py': Bad header: FROM device, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:22:06.702211 2017] [cgid:error] [pid 3788:tid 140129414936320] [client 192.168.206.1:63698] malformed header from script 'index.py': Bad header: FROM params , referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:38:14.755410 2017] [cgid:error] [pid 3788:tid 140129389758208] [client 192.168.206.1:63853] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:38:20.247694 2017] [cgid:error] [pid 3788:tid 140129305831168] [client 192.168.206.1:63854] End of script output before headers: index.py, referer: http://192.168.206.3:8081/default/index
+[Thu Feb 23 16:55:27.975327 2017] [cgid:error] [pid 3787:tid 140129512986368] [client 192.168.206.1:64042] End of script output before headers: index.py
+[Thu Feb 23 16:55:42.676652 2017] [cgid:error] [pid 3787:tid 140129406543616] [client 192.168.206.1:64048] End of script output before headers: index.py
+[Thu Feb 23 16:56:29.369570 2017] [cgid:error] [pid 3787:tid 140129364580096] [client 192.168.206.1:64057] End of script output before headers: index.py

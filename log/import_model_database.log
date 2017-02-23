@@ -1,0 +1,741 @@
+INFO     [2017-02-16 09:49:06,619] Logging is init.....
+INFO     [2017-02-16 09:49:06,642] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 09:49:06,643] {}
+INFO     [2017-02-16 09:49:06,646] SELECT DATABASE()
+INFO     [2017-02-16 09:49:06,646] {}
+INFO     [2017-02-16 09:49:06,647] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 09:49:06,648] {}
+INFO     [2017-02-16 09:49:06,650] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 09:49:06,650] {}
+INFO     [2017-02-16 09:49:06,652] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 09:49:06,652] {}
+INFO     [2017-02-16 09:49:06,653] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 09:49:06,654] {}
+INFO     [2017-02-16 09:49:06,655] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 09:49:06,656] {}
+INFO     [2017-02-16 09:49:06,670] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 09:49:06,671] {}
+INFO     [2017-02-16 09:49:06,674] SHOW CREATE TABLE `device_status`
+INFO     [2017-02-16 09:49:06,674] {}
+INFO     [2017-02-16 09:49:06,678] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 09:49:06,678] {}
+INFO     [2017-02-16 09:49:06,682] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 09:49:06,682] {}
+INFO     [2017-02-16 09:49:06,688] database is init.....
+INFO     [2017-02-16 09:50:49,103] Logging is init.....
+INFO     [2017-02-16 09:50:49,154] database is init.....
+INFO     [2017-02-16 09:51:21,117] Logging is init.....
+INFO     [2017-02-16 09:51:21,170] database is init.....
+INFO     [2017-02-16 09:51:21,170] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 09:55:47,440] Logging is init.....
+INFO     [2017-02-16 09:55:47,497] database is init.....
+INFO     [2017-02-16 09:55:47,498] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:09:46,235] Logging is init.....
+INFO     [2017-02-16 10:11:14,262] Logging is init.....
+INFO     [2017-02-16 10:11:30,497] Logging is init.....
+INFO     [2017-02-16 10:11:38,627] Logging is init.....
+INFO     [2017-02-16 10:12:57,445] Logging is init.....
+INFO     [2017-02-16 10:12:57,504] database is init.....
+INFO     [2017-02-16 10:21:54,774] Logging is init.....
+INFO     [2017-02-16 10:21:54,830] database is init.....
+INFO     [2017-02-16 10:26:45,584] Logging is init.....
+INFO     [2017-02-16 10:26:45,645] database is init.....
+INFO     [2017-02-16 10:43:02,980] Logging is init.....
+INFO     [2017-02-16 10:43:03,036] database is init.....
+INFO     [2017-02-16 10:43:30,719] Logging is init.....
+INFO     [2017-02-16 10:43:30,779] database is init.....
+INFO     [2017-02-16 10:43:30,779] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:47:20,907] Logging is init.....
+INFO     [2017-02-16 10:47:20,968] database is init.....
+INFO     [2017-02-16 10:47:20,968] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:47:49,375] Logging is init.....
+INFO     [2017-02-16 10:47:49,434] database is init.....
+INFO     [2017-02-16 10:48:27,919] Logging is init.....
+INFO     [2017-02-16 10:48:27,980] database is init.....
+INFO     [2017-02-16 10:48:35,813] Logging is init.....
+INFO     [2017-02-16 10:48:35,869] database is init.....
+INFO     [2017-02-16 10:48:35,869] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:49:46,937] Logging is init.....
+INFO     [2017-02-16 10:49:47,002] database is init.....
+INFO     [2017-02-16 10:49:47,002] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:50:00,286] Logging is init.....
+INFO     [2017-02-16 10:50:00,345] database is init.....
+INFO     [2017-02-16 10:50:00,345] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:51:14,974] Logging is init.....
+INFO     [2017-02-16 10:51:15,030] database is init.....
+INFO     [2017-02-16 10:51:15,030] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:51:28,443] Logging is init.....
+INFO     [2017-02-16 10:51:28,500] database is init.....
+INFO     [2017-02-16 10:51:28,500] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:52:10,863] Logging is init.....
+INFO     [2017-02-16 10:52:10,920] database is init.....
+INFO     [2017-02-16 10:52:10,920] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:52:25,613] Logging is init.....
+INFO     [2017-02-16 10:52:25,670] database is init.....
+INFO     [2017-02-16 10:52:25,671] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:53:25,681] Logging is init.....
+INFO     [2017-02-16 10:53:25,738] database is init.....
+INFO     [2017-02-16 10:53:25,738] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:53:33,752] Logging is init.....
+INFO     [2017-02-16 10:53:33,808] database is init.....
+INFO     [2017-02-16 10:53:33,808] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:55:25,315] Logging is init.....
+INFO     [2017-02-16 10:55:25,385] database is init.....
+INFO     [2017-02-16 10:55:25,385] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:56:02,017] Logging is init.....
+INFO     [2017-02-16 10:56:02,075] database is init.....
+INFO     [2017-02-16 10:56:02,075] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:57:27,802] Logging is init.....
+INFO     [2017-02-16 10:57:27,866] database is init.....
+INFO     [2017-02-16 10:57:27,866] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 10:58:17,190] Logging is init.....
+INFO     [2017-02-16 10:58:17,254] database is init.....
+INFO     [2017-02-16 10:58:17,254] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:02:37,953] Logging is init.....
+INFO     [2017-02-16 11:02:38,015] database is init.....
+INFO     [2017-02-16 11:02:38,015] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:08:02,558] Logging is init.....
+INFO     [2017-02-16 11:08:02,618] database is init.....
+INFO     [2017-02-16 11:08:02,619] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:08:26,579] Logging is init.....
+INFO     [2017-02-16 11:08:26,649] database is init.....
+INFO     [2017-02-16 11:08:26,649] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:11:03,078] Logging is init.....
+INFO     [2017-02-16 11:11:03,142] database is init.....
+INFO     [2017-02-16 11:11:03,143] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:11:17,283] Logging is init.....
+INFO     [2017-02-16 11:11:17,372] database is init.....
+INFO     [2017-02-16 11:11:17,373] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:11:21,371] Logging is init.....
+INFO     [2017-02-16 11:11:21,428] database is init.....
+INFO     [2017-02-16 11:11:21,429] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:34:05,113] Logging is init.....
+INFO     [2017-02-16 11:34:05,178] database is init.....
+INFO     [2017-02-16 11:34:05,179] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:34:30,858] Logging is init.....
+INFO     [2017-02-16 11:34:30,916] database is init.....
+INFO     [2017-02-16 11:34:30,916] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:34:43,618] Logging is init.....
+INFO     [2017-02-16 11:34:43,677] database is init.....
+INFO     [2017-02-16 11:34:43,677] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:35:17,906] Logging is init.....
+INFO     [2017-02-16 11:35:17,963] database is init.....
+INFO     [2017-02-16 11:35:17,964] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:44:41,716] Logging is init.....
+INFO     [2017-02-16 11:44:41,738] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 11:44:41,739] {}
+INFO     [2017-02-16 11:44:41,742] SELECT DATABASE()
+INFO     [2017-02-16 11:44:41,742] {}
+INFO     [2017-02-16 11:44:41,743] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 11:44:41,744] {}
+INFO     [2017-02-16 11:44:41,746] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 11:44:41,746] {}
+INFO     [2017-02-16 11:44:41,747] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 11:44:41,748] {}
+INFO     [2017-02-16 11:44:41,749] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 11:44:41,749] {}
+INFO     [2017-02-16 11:44:41,751] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 11:44:41,751] {}
+INFO     [2017-02-16 11:44:41,765] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 11:44:41,766] {}
+INFO     [2017-02-16 11:44:41,768] SHOW CREATE TABLE `device_status`
+INFO     [2017-02-16 11:44:41,769] {}
+INFO     [2017-02-16 11:44:41,774] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 11:44:41,774] {}
+INFO     [2017-02-16 11:44:41,777] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 11:44:41,778] {}
+INFO     [2017-02-16 11:44:41,794] database is init.....
+INFO     [2017-02-16 11:44:41,794] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:44:41,797] BEGIN (implicit)
+INFO     [2017-02-16 11:44:41,798] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 11:44:41,799] {'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'id': 1, 'default_value': 'HTTP', 'value': 'HTTP', 'isWrite': 'N', 'add_path': None, 'isAdd': None, 'device_id': 1}
+INFO     [2017-02-16 11:44:41,801] COMMIT
+INFO     [2017-02-16 11:58:37,614] Logging is init.....
+INFO     [2017-02-16 11:58:37,636] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 11:58:37,636] {}
+INFO     [2017-02-16 11:58:37,639] SELECT DATABASE()
+INFO     [2017-02-16 11:58:37,639] {}
+INFO     [2017-02-16 11:58:37,641] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 11:58:37,641] {}
+INFO     [2017-02-16 11:58:37,644] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 11:58:37,645] {}
+INFO     [2017-02-16 11:58:37,646] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 11:58:37,646] {}
+INFO     [2017-02-16 11:58:37,647] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 11:58:37,648] {}
+INFO     [2017-02-16 11:58:37,649] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 11:58:37,650] {}
+INFO     [2017-02-16 11:58:37,662] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 11:58:37,663] {}
+INFO     [2017-02-16 11:58:37,669] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 11:58:37,670] {}
+INFO     [2017-02-16 11:58:37,673] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 11:58:37,674] {}
+INFO     [2017-02-16 11:58:37,677] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 11:58:37,678] {}
+INFO     [2017-02-16 11:58:37,693] database is init.....
+INFO     [2017-02-16 11:58:37,693] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:58:55,240] Logging is init.....
+INFO     [2017-02-16 11:58:55,261] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 11:58:55,262] {}
+INFO     [2017-02-16 11:58:55,265] SELECT DATABASE()
+INFO     [2017-02-16 11:58:55,265] {}
+INFO     [2017-02-16 11:58:55,266] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 11:58:55,267] {}
+INFO     [2017-02-16 11:58:55,269] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 11:58:55,269] {}
+INFO     [2017-02-16 11:58:55,270] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 11:58:55,271] {}
+INFO     [2017-02-16 11:58:55,272] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 11:58:55,272] {}
+INFO     [2017-02-16 11:58:55,278] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 11:58:55,278] {}
+INFO     [2017-02-16 11:58:55,291] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 11:58:55,292] {}
+INFO     [2017-02-16 11:58:55,297] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 11:58:55,298] {}
+INFO     [2017-02-16 11:58:55,301] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 11:58:55,301] {}
+INFO     [2017-02-16 11:58:55,304] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 11:58:55,305] {}
+INFO     [2017-02-16 11:58:55,319] database is init.....
+INFO     [2017-02-16 11:58:55,319] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 11:58:55,325] BEGIN (implicit)
+INFO     [2017-02-16 11:58:55,328] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 11:58:55,329] {'isWrite': 'N', 'default_value': 'HTTP', 'device_id': '1', 'isAdd': None, 'add_path': None, 'value': 'HTTP', 'id': 1, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports'}
+INFO     [2017-02-16 11:58:55,333] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 11:58:55,335] {'status': 'off', 'id': '1', 'name': 'SagemCom 2804'}
+INFO     [2017-02-16 11:58:55,337] COMMIT
+INFO     [2017-02-16 13:56:01,408] Logging is init.....
+INFO     [2017-02-16 13:56:01,430] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 13:56:01,431] {}
+INFO     [2017-02-16 13:56:01,434] SELECT DATABASE()
+INFO     [2017-02-16 13:56:01,434] {}
+INFO     [2017-02-16 13:56:01,435] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 13:56:01,436] {}
+INFO     [2017-02-16 13:56:01,438] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:56:01,438] {}
+INFO     [2017-02-16 13:56:01,440] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:56:01,440] {}
+INFO     [2017-02-16 13:56:01,441] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 13:56:01,442] {}
+INFO     [2017-02-16 13:56:01,443] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 13:56:01,444] {}
+INFO     [2017-02-16 13:56:01,456] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 13:56:01,457] {}
+INFO     [2017-02-16 13:56:01,463] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 13:56:01,463] {}
+INFO     [2017-02-16 13:56:01,467] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 13:56:01,467] {}
+INFO     [2017-02-16 13:56:01,471] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 13:56:01,471] {}
+INFO     [2017-02-16 13:56:01,486] database is init.....
+INFO     [2017-02-16 13:56:01,486] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 13:57:18,394] Logging is init.....
+INFO     [2017-02-16 13:57:18,418] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 13:57:18,419] {}
+INFO     [2017-02-16 13:57:18,422] SELECT DATABASE()
+INFO     [2017-02-16 13:57:18,423] {}
+INFO     [2017-02-16 13:57:18,424] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 13:57:18,424] {}
+INFO     [2017-02-16 13:57:18,427] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:57:18,427] {}
+INFO     [2017-02-16 13:57:18,428] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:57:18,429] {}
+INFO     [2017-02-16 13:57:18,430] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 13:57:18,431] {}
+INFO     [2017-02-16 13:57:18,433] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 13:57:18,434] {}
+INFO     [2017-02-16 13:57:18,449] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 13:57:18,450] {}
+INFO     [2017-02-16 13:57:18,454] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 13:57:18,455] {}
+INFO     [2017-02-16 13:57:18,458] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 13:57:18,458] {}
+INFO     [2017-02-16 13:57:18,461] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 13:57:18,461] {}
+INFO     [2017-02-16 13:57:18,477] database is init.....
+INFO     [2017-02-16 13:57:18,477] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 13:57:42,941] Logging is init.....
+INFO     [2017-02-16 13:57:42,966] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 13:57:42,967] {}
+INFO     [2017-02-16 13:57:42,970] SELECT DATABASE()
+INFO     [2017-02-16 13:57:42,970] {}
+INFO     [2017-02-16 13:57:42,971] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 13:57:42,971] {}
+INFO     [2017-02-16 13:57:42,974] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:57:42,974] {}
+INFO     [2017-02-16 13:57:42,975] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:57:42,976] {}
+INFO     [2017-02-16 13:57:42,977] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 13:57:42,977] {}
+INFO     [2017-02-16 13:57:42,979] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 13:57:42,979] {}
+INFO     [2017-02-16 13:57:42,995] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 13:57:42,996] {}
+INFO     [2017-02-16 13:57:43,000] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 13:57:43,001] {}
+INFO     [2017-02-16 13:57:43,003] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 13:57:43,005] {}
+INFO     [2017-02-16 13:57:43,009] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 13:57:43,009] {}
+INFO     [2017-02-16 13:57:43,026] database is init.....
+INFO     [2017-02-16 13:57:43,026] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 13:57:43,030] BEGIN (implicit)
+INFO     [2017-02-16 13:57:43,032] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 13:57:43,033] {'default_value': 'HTTP', 'isAdd': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'value': 'HTTP', 'add_path': None, 'device_id': '1', 'id': 1, 'isWrite': 'N'}
+INFO     [2017-02-16 13:57:43,034] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 13:57:43,035] {'name': 'SagemCom 2804', 'id': '1', 'status': 'off'}
+INFO     [2017-02-16 13:57:43,036] ROLLBACK
+INFO     [2017-02-16 13:58:45,331] Logging is init.....
+INFO     [2017-02-16 13:58:45,364] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 13:58:45,365] {}
+INFO     [2017-02-16 13:58:45,371] SELECT DATABASE()
+INFO     [2017-02-16 13:58:45,372] {}
+INFO     [2017-02-16 13:58:45,373] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 13:58:45,373] {}
+INFO     [2017-02-16 13:58:45,375] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:58:45,376] {}
+INFO     [2017-02-16 13:58:45,377] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 13:58:45,378] {}
+INFO     [2017-02-16 13:58:45,379] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 13:58:45,380] {}
+INFO     [2017-02-16 13:58:45,382] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 13:58:45,383] {}
+INFO     [2017-02-16 13:58:45,406] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 13:58:45,407] {}
+INFO     [2017-02-16 13:58:45,413] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 13:58:45,414] {}
+INFO     [2017-02-16 13:58:45,418] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 13:58:45,419] {}
+INFO     [2017-02-16 13:58:45,422] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 13:58:45,423] {}
+INFO     [2017-02-16 13:58:45,440] database is init.....
+INFO     [2017-02-16 13:58:45,440] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 13:58:45,444] BEGIN (implicit)
+INFO     [2017-02-16 13:58:45,447] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 13:58:45,447] {'isWrite': 'N', 'isAdd': None, 'default_value': 'HTTP', 'value': 'HTTP', 'id': 1, 'device_id': '1', 'add_path': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports'}
+INFO     [2017-02-16 13:58:45,455] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 13:58:45,455] {'status': 'off', 'id': '1', 'name': 'SagemCom 2804'}
+INFO     [2017-02-16 13:58:45,457] COMMIT
+INFO     [2017-02-16 14:00:00,136] Logging is init.....
+INFO     [2017-02-16 14:00:00,162] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:00:00,163] {}
+INFO     [2017-02-16 14:00:00,166] SELECT DATABASE()
+INFO     [2017-02-16 14:00:00,167] {}
+INFO     [2017-02-16 14:00:00,168] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:00:00,168] {}
+INFO     [2017-02-16 14:00:00,170] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:00:00,171] {}
+INFO     [2017-02-16 14:00:00,172] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:00:00,172] {}
+INFO     [2017-02-16 14:00:00,174] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:00:00,174] {}
+INFO     [2017-02-16 14:00:00,176] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:00:00,177] {}
+INFO     [2017-02-16 14:00:00,192] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:00:00,195] {}
+INFO     [2017-02-16 14:00:00,200] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:00:00,201] {}
+INFO     [2017-02-16 14:00:00,203] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:00:00,204] {}
+INFO     [2017-02-16 14:00:00,207] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:00:00,208] {}
+INFO     [2017-02-16 14:00:00,225] database is init.....
+INFO     [2017-02-16 14:00:00,225] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:00:00,369] BEGIN (implicit)
+INFO     [2017-02-16 14:00:00,371] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:00:00,371] {'name': 'SagemCom 2804', 'id': '1', 'status': 'off'}
+INFO     [2017-02-16 14:00:00,410] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:00:00,411] ({'value': 'HTTP', 'isWrite': 'N', 'device_id': '1', 'id': 3689114062, 'default_value': 'HTTP', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports'}, {'value': 'HTTP', 'isWrite': 'N', 'device_id': '1', 'id': 3597079879, 'default_value': 'HTTP', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports'}, {'value': 'undef', 'isWrite': 'N', 'device_id': '1', 'id': 3178365523, 'default_value': 'undef', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList'}, {'value': 'undef', 'isWrite': 'N', 'device_id': '1', 'id': 780175649, 'default_value': 'undef', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL'}, {'value': '0', 'isWrite': 'N', 'device_id': '1', 'id': 1474958082, 'default_value': '0', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.Enable'}, {'value': 'Disabled', 'isWrite': 'N', 'device_id': '1', 'id': 3746217516, 'default_value': 'Disabled', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.Status'}, {'value': 'undef', 'isWrite': 'N', 'device_id': '1', 'id': 2795653965, 'default_value': 'undef', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile'}, {'value': 'undef', 'isWrite': 'N', 'device_id': '1', 'id': 2900878207, 'default_value': 'undef', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData'}  ... displaying 10 of 1126 total bound parameter sets ...  {'value': 'Up', 'isWrite': 'N', 'device_id': '1', 'id': 3635307746, 'default_value': 'Up', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status'}, {'value': '1', 'isWrite': 'N', 'device_id': '1', 'id': 2111996367, 'default_value': '1', 'add_path': None, 'isAdd': None, 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries'})
+INFO     [2017-02-16 14:00:00,458] ROLLBACK
+INFO     [2017-02-16 14:01:45,766] Logging is init.....
+INFO     [2017-02-16 14:01:45,790] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:01:45,791] {}
+INFO     [2017-02-16 14:01:45,793] SELECT DATABASE()
+INFO     [2017-02-16 14:01:45,794] {}
+INFO     [2017-02-16 14:01:45,795] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:01:45,795] {}
+INFO     [2017-02-16 14:01:45,797] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:01:45,798] {}
+INFO     [2017-02-16 14:01:45,799] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:01:45,799] {}
+INFO     [2017-02-16 14:01:45,800] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:01:45,801] {}
+INFO     [2017-02-16 14:01:45,802] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:01:45,803] {}
+INFO     [2017-02-16 14:01:45,816] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:01:45,817] {}
+INFO     [2017-02-16 14:01:45,824] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:01:45,824] {}
+INFO     [2017-02-16 14:01:45,828] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:01:45,828] {}
+INFO     [2017-02-16 14:01:45,831] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:01:45,832] {}
+INFO     [2017-02-16 14:01:45,849] database is init.....
+INFO     [2017-02-16 14:01:45,850] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:01:45,984] BEGIN (implicit)
+INFO     [2017-02-16 14:01:45,986] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:01:45,986] {'id': '1', 'name': 'SagemCom 2804', 'status': 'off'}
+INFO     [2017-02-16 14:01:46,036] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:01:46,037] ({'id': 3689114062, 'value': 'HTTP', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'default_value': 'HTTP'}, {'id': 3597079879, 'value': 'HTTP', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'default_value': 'HTTP'}, {'id': 3178365523, 'value': 'undef', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'default_value': 'undef'}, {'id': 780175649, 'value': 'undef', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'default_value': 'undef'}, {'id': 1474958082, 'value': '0', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'default_value': '0'}, {'id': 3746217516, 'value': 'Disabled', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'default_value': 'Disabled'}, {'id': 2795653965, 'value': 'undef', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'default_value': 'undef'}, {'id': 2900878207, 'value': 'undef', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'default_value': 'undef'}  ... displaying 10 of 1126 total bound parameter sets ...  {'id': 3635307746, 'value': 'Up', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'default_value': 'Up'}, {'id': 2111996367, 'value': '1', 'isAdd': None, 'device_id': '1', 'isWrite': 'N', 'add_path': None, 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'default_value': '1'})
+INFO     [2017-02-16 14:01:46,156] COMMIT
+INFO     [2017-02-16 14:04:37,657] Logging is init.....
+INFO     [2017-02-16 14:04:37,681] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:04:37,681] {}
+INFO     [2017-02-16 14:04:37,684] SELECT DATABASE()
+INFO     [2017-02-16 14:04:37,685] {}
+INFO     [2017-02-16 14:04:37,686] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:04:37,687] {}
+INFO     [2017-02-16 14:04:37,690] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:04:37,690] {}
+INFO     [2017-02-16 14:04:37,692] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:04:37,693] {}
+INFO     [2017-02-16 14:04:37,694] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:04:37,694] {}
+INFO     [2017-02-16 14:04:37,696] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:04:37,696] {}
+INFO     [2017-02-16 14:04:37,711] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:04:37,711] {}
+INFO     [2017-02-16 14:04:37,716] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:04:37,717] {}
+INFO     [2017-02-16 14:04:37,721] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:04:37,722] {}
+INFO     [2017-02-16 14:04:37,727] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:04:37,728] {}
+INFO     [2017-02-16 14:04:37,744] database is init.....
+INFO     [2017-02-16 14:04:37,744] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:04:37,869] BEGIN (implicit)
+INFO     [2017-02-16 14:04:37,871] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:04:37,871] {'id': '1', 'status': 'off', 'name': 'SagemCom 2804'}
+INFO     [2017-02-16 14:04:37,932] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:04:37,932] ({'add_path': None, 'id': 3689114062, 'isAdd': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'isWrite': 'N', 'default_value': 'HTTP', 'value': 'HTTP', 'device_id': '1'}, {'add_path': None, 'id': 3597079879, 'isAdd': None, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'isWrite': 'N', 'default_value': 'HTTP', 'value': 'HTTP', 'device_id': '1'}, {'add_path': None, 'id': 3178365523, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'isWrite': 'N', 'default_value': 'undef', 'value': 'undef', 'device_id': '1'}, {'add_path': None, 'id': 780175649, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'isWrite': 'N', 'default_value': 'undef', 'value': 'undef', 'device_id': '1'}, {'add_path': None, 'id': 1474958082, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'isWrite': 'N', 'default_value': '0', 'value': '0', 'device_id': '1'}, {'add_path': None, 'id': 3746217516, 'isAdd': None, 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'isWrite': 'N', 'default_value': 'Disabled', 'value': 'Disabled', 'device_id': '1'}, {'add_path': None, 'id': 2795653965, 'isAdd': None, 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'isWrite': 'N', 'default_value': 'undef', 'value': 'undef', 'device_id': '1'}, {'add_path': None, 'id': 2900878207, 'isAdd': None, 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'isWrite': 'N', 'default_value': 'undef', 'value': 'undef', 'device_id': '1'}  ... displaying 10 of 1126 total bound parameter sets ...  {'add_path': None, 'id': 3635307746, 'isAdd': None, 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'isWrite': 'N', 'default_value': 'Up', 'value': 'Up', 'device_id': '1'}, {'add_path': None, 'id': 2111996367, 'isAdd': None, 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'isWrite': 'N', 'default_value': '1', 'value': '1', 'device_id': '1'})
+INFO     [2017-02-16 14:04:38,029] COMMIT
+INFO     [2017-02-16 14:06:13,968] Logging is init.....
+INFO     [2017-02-16 14:06:13,992] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:06:13,993] {}
+INFO     [2017-02-16 14:06:13,996] SELECT DATABASE()
+INFO     [2017-02-16 14:06:13,996] {}
+INFO     [2017-02-16 14:06:13,998] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:06:13,998] {}
+INFO     [2017-02-16 14:06:14,000] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:06:14,000] {}
+INFO     [2017-02-16 14:06:14,001] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:06:14,002] {}
+INFO     [2017-02-16 14:06:14,003] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:06:14,003] {}
+INFO     [2017-02-16 14:06:14,005] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:06:14,005] {}
+INFO     [2017-02-16 14:06:14,021] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:06:14,022] {}
+INFO     [2017-02-16 14:06:14,026] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:06:14,026] {}
+INFO     [2017-02-16 14:06:14,029] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:06:14,030] {}
+INFO     [2017-02-16 14:06:14,032] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:06:14,033] {}
+INFO     [2017-02-16 14:06:14,048] database is init.....
+INFO     [2017-02-16 14:06:14,048] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:06:14,165] BEGIN (implicit)
+INFO     [2017-02-16 14:06:14,166] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:06:14,166] {'status': 'off', 'name': 'SagemCom 2804', 'id': '1'}
+INFO     [2017-02-16 14:06:14,216] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:06:14,222] ({'isAdd': None, 'id': 3689114062, 'isWrite': 'N', 'add_path': None, 'value': 'HTTP', 'default_value': 'HTTP', 'device_id': '1', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports'}, {'isAdd': None, 'id': 3597079879, 'isWrite': 'N', 'add_path': None, 'value': 'HTTP', 'default_value': 'HTTP', 'device_id': '1', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports'}, {'isAdd': None, 'id': 3178365523, 'isWrite': 'N', 'add_path': None, 'value': 'undef', 'default_value': 'undef', 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList'}, {'isAdd': None, 'id': 780175649, 'isWrite': 'N', 'add_path': None, 'value': 'undef', 'default_value': 'undef', 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL'}, {'isAdd': None, 'id': 1474958082, 'isWrite': 'N', 'add_path': None, 'value': '0', 'default_value': '0', 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.Enable'}, {'isAdd': None, 'id': 3746217516, 'isWrite': 'N', 'add_path': None, 'value': 'Disabled', 'default_value': 'Disabled', 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.Status'}, {'isAdd': None, 'id': 2795653965, 'isWrite': 'N', 'add_path': None, 'value': 'undef', 'default_value': 'undef', 'device_id': '1', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile'}, {'isAdd': None, 'id': 2900878207, 'isWrite': 'N', 'add_path': None, 'value': 'undef', 'default_value': 'undef', 'device_id': '1', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData'}  ... displaying 10 of 1126 total bound parameter sets ...  {'isAdd': None, 'id': 3635307746, 'isWrite': 'N', 'add_path': None, 'value': 'Up', 'default_value': 'Up', 'device_id': '1', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status'}, {'isAdd': None, 'id': 2111996367, 'isWrite': 'N', 'add_path': None, 'value': '1', 'default_value': '1', 'device_id': '1', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries'})
+INFO     [2017-02-16 14:06:14,314] COMMIT
+INFO     [2017-02-16 14:29:53,419] Logging is init.....
+INFO     [2017-02-16 14:29:53,441] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:29:53,442] {}
+INFO     [2017-02-16 14:29:53,444] SELECT DATABASE()
+INFO     [2017-02-16 14:29:53,445] {}
+INFO     [2017-02-16 14:29:53,446] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:29:53,446] {}
+INFO     [2017-02-16 14:29:53,448] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:29:53,449] {}
+INFO     [2017-02-16 14:29:53,450] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:29:53,450] {}
+INFO     [2017-02-16 14:29:53,451] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:29:53,452] {}
+INFO     [2017-02-16 14:29:53,453] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:29:53,454] {}
+INFO     [2017-02-16 14:29:53,468] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:29:53,469] {}
+INFO     [2017-02-16 14:29:53,472] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:29:53,473] {}
+INFO     [2017-02-16 14:29:53,475] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:29:53,476] {}
+INFO     [2017-02-16 14:29:53,479] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-16 14:29:53,479] {}
+INFO     [2017-02-16 14:29:53,482] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:29:53,482] {}
+INFO     [2017-02-16 14:29:53,504] database is init.....
+INFO     [2017-02-16 14:29:53,505] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:29:53,706] BEGIN (implicit)
+INFO     [2017-02-16 14:29:53,708] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:29:53,709] {'id': '1', 'status': 'off', 'name': 'SagemCom 2804'}
+INFO     [2017-02-16 14:29:53,778] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:29:53,779] ({'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'isAdd': None, 'id': 3689114062, 'default_value': 'HTTP', 'value': 'HTTP'}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'isAdd': None, 'id': 3689114062, 'default_value': None, 'value': None}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'isAdd': None, 'id': 3597079879, 'default_value': 'HTTP', 'value': 'HTTP'}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'isAdd': None, 'id': 3597079879, 'default_value': None, 'value': None}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'isAdd': None, 'id': 3178365523, 'default_value': 'undef', 'value': 'undef'}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'isAdd': None, 'id': 3178365523, 'default_value': None, 'value': None}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'isAdd': None, 'id': 780175649, 'default_value': 'undef', 'value': 'undef'}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'isAdd': None, 'id': 780175649, 'default_value': None, 'value': None}  ... displaying 10 of 2252 total bound parameter sets ...  {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'isAdd': None, 'id': 2111996367, 'default_value': '1', 'value': '1'}, {'isWrite': 'N', 'add_path': None, 'device_id': '1', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'isAdd': None, 'id': 2111996367, 'default_value': None, 'value': None})
+INFO     [2017-02-16 14:29:53,962] COMMIT
+INFO     [2017-02-16 14:31:10,045] Logging is init.....
+INFO     [2017-02-16 14:31:10,067] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:31:10,067] {}
+INFO     [2017-02-16 14:31:10,070] SELECT DATABASE()
+INFO     [2017-02-16 14:31:10,070] {}
+INFO     [2017-02-16 14:31:10,072] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:31:10,072] {}
+INFO     [2017-02-16 14:31:10,074] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:31:10,074] {}
+INFO     [2017-02-16 14:31:10,076] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:31:10,076] {}
+INFO     [2017-02-16 14:31:10,077] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:31:10,078] {}
+INFO     [2017-02-16 14:31:10,079] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:31:10,080] {}
+INFO     [2017-02-16 14:31:10,111] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:31:10,112] {}
+INFO     [2017-02-16 14:31:10,115] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:31:10,116] {}
+INFO     [2017-02-16 14:31:10,119] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:31:10,119] {}
+INFO     [2017-02-16 14:31:10,122] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-16 14:31:10,123] {}
+INFO     [2017-02-16 14:31:10,125] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:31:10,126] {}
+INFO     [2017-02-16 14:31:10,144] database is init.....
+INFO     [2017-02-16 14:31:10,144] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:31:29,654] Logging is init.....
+INFO     [2017-02-16 14:31:29,679] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:31:29,679] {}
+INFO     [2017-02-16 14:31:29,682] SELECT DATABASE()
+INFO     [2017-02-16 14:31:29,682] {}
+INFO     [2017-02-16 14:31:29,684] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:31:29,684] {}
+INFO     [2017-02-16 14:31:29,686] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:31:29,686] {}
+INFO     [2017-02-16 14:31:29,687] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:31:29,688] {}
+INFO     [2017-02-16 14:31:29,689] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:31:29,690] {}
+INFO     [2017-02-16 14:31:29,691] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:31:29,691] {}
+INFO     [2017-02-16 14:31:29,704] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:31:29,705] {}
+INFO     [2017-02-16 14:31:29,709] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:31:29,709] {}
+INFO     [2017-02-16 14:31:29,712] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:31:29,713] {}
+INFO     [2017-02-16 14:31:29,718] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-16 14:31:29,719] {}
+INFO     [2017-02-16 14:31:29,721] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:31:29,722] {}
+INFO     [2017-02-16 14:31:29,737] database is init.....
+INFO     [2017-02-16 14:31:29,738] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:31:29,942] BEGIN (implicit)
+INFO     [2017-02-16 14:31:29,943] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:31:29,944] {'id': '1', 'name': 'SagemCom 2804', 'status': 'off'}
+INFO     [2017-02-16 14:31:29,974] INSERT INTO params_default (device_id, id, name, value, `isWrite`) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(isWrite)s)
+INFO     [2017-02-16 14:31:29,975] ({'id': 3689114062, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'value': None}, {'id': 3597079879, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'value': None}, {'id': 3178365523, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'value': None}, {'id': 780175649, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'value': None}, {'id': 1474958082, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'value': None}, {'id': 3746217516, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'value': None}, {'id': 2795653965, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'value': None}, {'id': 2900878207, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'value': None}  ... displaying 10 of 1126 total bound parameter sets ...  {'id': 3635307746, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'value': None}, {'id': 2111996367, 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'value': None})
+INFO     [2017-02-16 14:31:30,069] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:31:30,069] ({'isAdd': None, 'id': 3689114062, 'default_value': 'HTTP', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'add_path': None, 'value': 'HTTP'}, {'isAdd': None, 'id': 3597079879, 'default_value': 'HTTP', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'add_path': None, 'value': 'HTTP'}, {'isAdd': None, 'id': 3178365523, 'default_value': 'undef', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'add_path': None, 'value': 'undef'}, {'isAdd': None, 'id': 780175649, 'default_value': 'undef', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'add_path': None, 'value': 'undef'}, {'isAdd': None, 'id': 1474958082, 'default_value': '0', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'add_path': None, 'value': '0'}, {'isAdd': None, 'id': 3746217516, 'default_value': 'Disabled', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'add_path': None, 'value': 'Disabled'}, {'isAdd': None, 'id': 2795653965, 'default_value': 'undef', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'add_path': None, 'value': 'undef'}, {'isAdd': None, 'id': 2900878207, 'default_value': 'undef', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'add_path': None, 'value': 'undef'}  ... displaying 10 of 1126 total bound parameter sets ...  {'isAdd': None, 'id': 3635307746, 'default_value': 'Up', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'add_path': None, 'value': 'Up'}, {'isAdd': None, 'id': 2111996367, 'default_value': '1', 'device_id': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'add_path': None, 'value': '1'})
+INFO     [2017-02-16 14:31:30,154] COMMIT
+INFO     [2017-02-16 14:32:45,623] Logging is init.....
+INFO     [2017-02-16 14:32:45,645] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:32:45,647] {}
+INFO     [2017-02-16 14:32:45,650] SELECT DATABASE()
+INFO     [2017-02-16 14:32:45,651] {}
+INFO     [2017-02-16 14:32:45,652] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:32:45,652] {}
+INFO     [2017-02-16 14:32:45,654] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:32:45,655] {}
+INFO     [2017-02-16 14:32:45,656] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:32:45,656] {}
+INFO     [2017-02-16 14:32:45,660] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:32:45,660] {}
+INFO     [2017-02-16 14:32:45,662] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:32:45,662] {}
+INFO     [2017-02-16 14:32:45,678] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:32:45,678] {}
+INFO     [2017-02-16 14:32:45,682] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:32:45,683] {}
+INFO     [2017-02-16 14:32:45,686] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:32:45,686] {}
+INFO     [2017-02-16 14:32:45,692] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-16 14:32:45,693] {}
+INFO     [2017-02-16 14:32:45,695] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:32:45,696] {}
+INFO     [2017-02-16 14:32:45,713] database is init.....
+INFO     [2017-02-16 14:32:45,713] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:32:45,914] BEGIN (implicit)
+INFO     [2017-02-16 14:32:45,916] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:32:45,916] {'status': 'off', 'name': 'SagemCom 2804', 'id': '1'}
+INFO     [2017-02-16 14:32:45,941] INSERT INTO params_default (device_id, id, name, value, `isWrite`) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(isWrite)s)
+INFO     [2017-02-16 14:32:45,942] ({'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'device_id': '1', 'id': 3689114062, 'value': None}, {'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'device_id': '1', 'id': 3597079879, 'value': None}, {'isWrite': 'Y', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'device_id': '1', 'id': 3178365523, 'value': None}, {'isWrite': 'Y', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'device_id': '1', 'id': 780175649, 'value': None}, {'isWrite': 'Y', 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'device_id': '1', 'id': 1474958082, 'value': None}, {'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'device_id': '1', 'id': 3746217516, 'value': None}, {'isWrite': 'Y', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'device_id': '1', 'id': 2795653965, 'value': None}, {'isWrite': 'Y', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'device_id': '1', 'id': 2900878207, 'value': None}  ... displaying 10 of 1126 total bound parameter sets ...  {'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'device_id': '1', 'id': 3635307746, 'value': None}, {'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'device_id': '1', 'id': 2111996367, 'value': None})
+INFO     [2017-02-16 14:32:46,061] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:32:46,062] ({'isWrite': 'N', 'device_id': '1', 'id': 3689114062, 'value': 'HTTP', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'isAdd': None, 'default_value': 'HTTP', 'add_path': None}, {'isWrite': 'N', 'device_id': '1', 'id': 3597079879, 'value': 'HTTP', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'isAdd': None, 'default_value': 'HTTP', 'add_path': None}, {'isWrite': 'Y', 'device_id': '1', 'id': 3178365523, 'value': 'undef', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'isAdd': None, 'default_value': 'undef', 'add_path': None}, {'isWrite': 'Y', 'device_id': '1', 'id': 780175649, 'value': 'undef', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'isAdd': None, 'default_value': 'undef', 'add_path': None}, {'isWrite': 'Y', 'device_id': '1', 'id': 1474958082, 'value': '0', 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'isAdd': None, 'default_value': '0', 'add_path': None}, {'isWrite': 'N', 'device_id': '1', 'id': 3746217516, 'value': 'Disabled', 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'isAdd': None, 'default_value': 'Disabled', 'add_path': None}, {'isWrite': 'Y', 'device_id': '1', 'id': 2795653965, 'value': 'undef', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'isAdd': None, 'default_value': 'undef', 'add_path': None}, {'isWrite': 'Y', 'device_id': '1', 'id': 2900878207, 'value': 'undef', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'isAdd': None, 'default_value': 'undef', 'add_path': None}  ... displaying 10 of 1126 total bound parameter sets ...  {'isWrite': 'N', 'device_id': '1', 'id': 3635307746, 'value': 'Up', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'isAdd': None, 'default_value': 'Up', 'add_path': None}, {'isWrite': 'N', 'device_id': '1', 'id': 2111996367, 'value': '1', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'isAdd': None, 'default_value': '1', 'add_path': None})
+INFO     [2017-02-16 14:32:46,139] COMMIT
+INFO     [2017-02-16 14:34:34,316] Logging is init.....
+INFO     [2017-02-16 14:34:34,339] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:34:34,347] {}
+INFO     [2017-02-16 14:34:34,350] SELECT DATABASE()
+INFO     [2017-02-16 14:34:34,351] {}
+INFO     [2017-02-16 14:34:34,352] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:34:34,352] {}
+INFO     [2017-02-16 14:34:34,355] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:34:34,355] {}
+INFO     [2017-02-16 14:34:34,356] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:34:34,357] {}
+INFO     [2017-02-16 14:34:34,358] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:34:34,358] {}
+INFO     [2017-02-16 14:34:34,360] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:34:34,360] {}
+INFO     [2017-02-16 14:34:34,377] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:34:34,378] {}
+INFO     [2017-02-16 14:34:34,382] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:34:34,383] {}
+INFO     [2017-02-16 14:34:34,386] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:34:34,386] {}
+INFO     [2017-02-16 14:34:34,389] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-16 14:34:34,390] {}
+INFO     [2017-02-16 14:34:34,392] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:34:34,392] {}
+INFO     [2017-02-16 14:34:34,412] database is init.....
+INFO     [2017-02-16 14:34:34,412] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:34:34,617] BEGIN (implicit)
+INFO     [2017-02-16 14:34:34,619] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:34:34,620] {'status': 'off', 'id': '1', 'name': 'SagemCom 2804'}
+INFO     [2017-02-16 14:34:34,667] INSERT INTO params_default (device_id, id, name, value, `isWrite`) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(isWrite)s)
+INFO     [2017-02-16 14:34:34,668] ({'device_id': '1', 'id': 3689114062, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'value': 'HTTP', 'isWrite': 'N'}, {'device_id': '1', 'id': 3597079879, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'value': 'HTTP', 'isWrite': 'N'}, {'device_id': '1', 'id': 3178365523, 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'value': 'undef', 'isWrite': 'Y'}, {'device_id': '1', 'id': 780175649, 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'value': 'undef', 'isWrite': 'Y'}, {'device_id': '1', 'id': 1474958082, 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'value': '0', 'isWrite': 'Y'}, {'device_id': '1', 'id': 3746217516, 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'value': 'Disabled', 'isWrite': 'N'}, {'device_id': '1', 'id': 2795653965, 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'value': 'undef', 'isWrite': 'Y'}, {'device_id': '1', 'id': 2900878207, 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'value': 'undef', 'isWrite': 'Y'}  ... displaying 10 of 1126 total bound parameter sets ...  {'device_id': '1', 'id': 3635307746, 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'value': 'Up', 'isWrite': 'N'}, {'device_id': '1', 'id': 2111996367, 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'value': '1', 'isWrite': 'N'})
+INFO     [2017-02-16 14:34:34,745] INSERT INTO params (device_id, id, name, default_value, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(default_value)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:34:34,746] ({'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'N', 'id': 3689114062, 'default_value': 'HTTP', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'value': 'HTTP'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'N', 'id': 3597079879, 'default_value': 'HTTP', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'value': 'HTTP'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'Y', 'id': 3178365523, 'default_value': 'undef', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'value': 'undef'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'Y', 'id': 780175649, 'default_value': 'undef', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'value': 'undef'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'Y', 'id': 1474958082, 'default_value': '0', 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'value': '0'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'N', 'id': 3746217516, 'default_value': 'Disabled', 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'value': 'Disabled'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'Y', 'id': 2795653965, 'default_value': 'undef', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'value': 'undef'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'Y', 'id': 2900878207, 'default_value': 'undef', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'value': 'undef'}  ... displaying 10 of 1126 total bound parameter sets ...  {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'N', 'id': 3635307746, 'default_value': 'Up', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'value': 'Up'}, {'device_id': '1', 'add_path': None, 'isAdd': None, 'isWrite': 'N', 'id': 2111996367, 'default_value': '1', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'value': '1'})
+INFO     [2017-02-16 14:34:34,822] COMMIT
+INFO     [2017-02-16 14:35:48,319] Logging is init.....
+INFO     [2017-02-16 14:35:48,342] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:35:48,343] {}
+INFO     [2017-02-16 14:35:48,346] SELECT DATABASE()
+INFO     [2017-02-16 14:35:48,346] {}
+INFO     [2017-02-16 14:35:48,347] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:35:48,348] {}
+INFO     [2017-02-16 14:35:48,350] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:35:48,350] {}
+INFO     [2017-02-16 14:35:48,351] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:35:48,352] {}
+INFO     [2017-02-16 14:35:48,353] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:35:48,353] {}
+INFO     [2017-02-16 14:35:48,357] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:35:48,358] {}
+INFO     [2017-02-16 14:35:48,371] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:35:48,372] {}
+INFO     [2017-02-16 14:35:48,377] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:35:48,378] {}
+INFO     [2017-02-16 14:35:48,381] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:35:48,381] {}
+INFO     [2017-02-16 14:35:48,384] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-16 14:35:48,385] {}
+INFO     [2017-02-16 14:35:48,387] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:35:48,387] {}
+INFO     [2017-02-16 14:35:48,412] database is init.....
+INFO     [2017-02-16 14:35:48,412] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:36:30,423] Logging is init.....
+INFO     [2017-02-16 14:36:30,445] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-16 14:36:30,446] {}
+INFO     [2017-02-16 14:36:30,448] SELECT DATABASE()
+INFO     [2017-02-16 14:36:30,449] {}
+INFO     [2017-02-16 14:36:30,450] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-16 14:36:30,450] {}
+INFO     [2017-02-16 14:36:30,452] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:36:30,453] {}
+INFO     [2017-02-16 14:36:30,454] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-16 14:36:30,454] {}
+INFO     [2017-02-16 14:36:30,455] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-16 14:36:30,456] {}
+INFO     [2017-02-16 14:36:30,457] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-16 14:36:30,458] {}
+INFO     [2017-02-16 14:36:30,470] SHOW CREATE TABLE `device`
+INFO     [2017-02-16 14:36:30,471] {}
+INFO     [2017-02-16 14:36:30,474] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-16 14:36:30,475] {}
+INFO     [2017-02-16 14:36:30,478] SHOW CREATE TABLE `params`
+INFO     [2017-02-16 14:36:30,478] {}
+INFO     [2017-02-16 14:36:30,482] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-16 14:36:30,483] {}
+INFO     [2017-02-16 14:36:30,486] SHOW CREATE TABLE `users`
+INFO     [2017-02-16 14:36:30,487] {}
+INFO     [2017-02-16 14:36:30,504] database is init.....
+INFO     [2017-02-16 14:36:30,504] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-16 14:36:30,705] BEGIN (implicit)
+INFO     [2017-02-16 14:36:30,729] INSERT INTO params_default (device_id, id, name, value, `isWrite`) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(isWrite)s)
+INFO     [2017-02-16 14:36:30,730] ({'device_id': '1', 'value': 'HTTP', 'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'id': 3689114062}, {'device_id': '1', 'value': 'HTTP', 'isWrite': 'N', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'id': 3597079879}, {'device_id': '1', 'value': 'undef', 'isWrite': 'Y', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'id': 3178365523}, {'device_id': '1', 'value': 'undef', 'isWrite': 'Y', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'id': 780175649}, {'device_id': '1', 'value': '0', 'isWrite': 'Y', 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'id': 1474958082}, {'device_id': '1', 'value': 'Disabled', 'isWrite': 'N', 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'id': 3746217516}, {'device_id': '1', 'value': 'undef', 'isWrite': 'Y', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'id': 2795653965}, {'device_id': '1', 'value': 'undef', 'isWrite': 'Y', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'id': 2900878207}  ... displaying 10 of 1126 total bound parameter sets ...  {'device_id': '1', 'value': 'Up', 'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'id': 3635307746}, {'device_id': '1', 'value': '1', 'isWrite': 'N', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'id': 2111996367})
+INFO     [2017-02-16 14:36:30,803] INSERT INTO params (device_id, id, name, value, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-16 14:36:30,804] ({'add_path': None, 'id': 3689114062, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'isAdd': None, 'device_id': '1', 'value': 'HTTP', 'isWrite': 'N'}, {'add_path': None, 'id': 3597079879, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'isAdd': None, 'device_id': '1', 'value': 'HTTP', 'isWrite': 'N'}, {'add_path': None, 'id': 3178365523, 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'isAdd': None, 'device_id': '1', 'value': 'undef', 'isWrite': 'Y'}, {'add_path': None, 'id': 780175649, 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'isAdd': None, 'device_id': '1', 'value': 'undef', 'isWrite': 'Y'}, {'add_path': None, 'id': 1474958082, 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'isAdd': None, 'device_id': '1', 'value': '0', 'isWrite': 'Y'}, {'add_path': None, 'id': 3746217516, 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'isAdd': None, 'device_id': '1', 'value': 'Disabled', 'isWrite': 'N'}, {'add_path': None, 'id': 2795653965, 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'isAdd': None, 'device_id': '1', 'value': 'undef', 'isWrite': 'Y'}, {'add_path': None, 'id': 2900878207, 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'isAdd': None, 'device_id': '1', 'value': 'undef', 'isWrite': 'Y'}  ... displaying 10 of 1126 total bound parameter sets ...  {'add_path': None, 'id': 3635307746, 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'isAdd': None, 'device_id': '1', 'value': 'Up', 'isWrite': 'N'}, {'add_path': None, 'id': 2111996367, 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'isAdd': None, 'device_id': '1', 'value': '1', 'isWrite': 'N'})
+INFO     [2017-02-16 14:36:30,849] INSERT INTO device (id, name, status) VALUES (%(id)s, %(name)s, %(status)s)
+INFO     [2017-02-16 14:36:30,849] {'status': 'off', 'name': 'SagemCom 2804', 'id': '1'}
+INFO     [2017-02-16 14:36:30,890] COMMIT
+INFO     [2017-02-18 16:30:15,678] Logging is init.....
+INFO     [2017-02-18 16:30:15,702] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-18 16:30:15,702] {}
+INFO     [2017-02-18 16:30:15,705] SELECT DATABASE()
+INFO     [2017-02-18 16:30:15,706] {}
+INFO     [2017-02-18 16:30:15,707] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-18 16:30:15,707] {}
+INFO     [2017-02-18 16:30:15,709] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-18 16:30:15,710] {}
+INFO     [2017-02-18 16:30:15,711] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-18 16:30:15,711] {}
+INFO     [2017-02-18 16:30:15,712] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-18 16:30:15,713] {}
+INFO     [2017-02-18 16:30:15,714] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-18 16:30:15,715] {}
+INFO     [2017-02-18 16:30:15,728] SHOW CREATE TABLE `device`
+INFO     [2017-02-18 16:30:15,729] {}
+INFO     [2017-02-18 16:30:15,734] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-18 16:30:15,735] {}
+INFO     [2017-02-18 16:30:15,740] SHOW CREATE TABLE `params`
+INFO     [2017-02-18 16:30:15,741] {}
+INFO     [2017-02-18 16:30:15,746] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-18 16:30:15,746] {}
+INFO     [2017-02-18 16:30:15,749] SHOW CREATE TABLE `users`
+INFO     [2017-02-18 16:30:15,749] {}
+INFO     [2017-02-18 16:30:15,768] database is init.....
+INFO     [2017-02-18 16:30:15,769] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-18 16:30:16,001] BEGIN (implicit)
+INFO     [2017-02-18 16:30:16,002] INSERT INTO device (id, name, status, connect_request_pid) VALUES (%(id)s, %(name)s, %(status)s, %(connect_request_pid)s)
+INFO     [2017-02-18 16:30:16,003] {'name': 'SagemCom 2804', 'status': 'off', 'id': '1', 'connect_request_pid': None}
+INFO     [2017-02-18 16:30:16,045] INSERT INTO params (device_id, id, name, value, type, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(type)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-18 16:30:16,046] ({'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'type': 'xsd:string', 'isWrite': 'N', 'add_path': None, 'value': '" ""HTTP"""', 'id': 3689114062, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'type': 'xsd:string', 'isWrite': 'N', 'add_path': None, 'value': '" ""HTTP"""', 'id': 3597079879, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'type': 'xsd:string', 'isWrite': 'Y', 'add_path': None, 'value': ' undef', 'id': 3178365523, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'type': 'xsd:string', 'isWrite': 'Y', 'add_path': None, 'value': ' undef', 'id': 780175649, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'type': 'xsd:boolean', 'isWrite': 'Y', 'add_path': None, 'value': '0', 'id': 1474958082, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.Status', 'type': 'xsd:string', 'isWrite': 'N', 'add_path': None, 'value': '" ""Disabled"""', 'id': 3746217516, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'type': 'xsd:string', 'isWrite': 'Y', 'add_path': None, 'value': ' undef', 'id': 2795653965, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'type': 'xsd:string', 'isWrite': 'Y', 'add_path': None, 'value': ' undef', 'id': 2900878207, 'isAdd': None, 'device_id': '1'}  ... displaying 10 of 1126 total bound parameter sets ...  {'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'type': 'xsd:string', 'isWrite': 'N', 'add_path': None, 'value': '" ""Up"""', 'id': 3635307746, 'isAdd': None, 'device_id': '1'}, {'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'type': 'xsd:unsignedInt', 'isWrite': 'N', 'add_path': None, 'value': '1', 'id': 2111996367, 'isAdd': None, 'device_id': '1'})
+INFO     [2017-02-18 16:30:16,126] INSERT INTO params_default (device_id, id, name, value, `isWrite`, type) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(isWrite)s, %(type)s)
+INFO     [2017-02-18 16:30:16,127] ({'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'isWrite': 'N', 'value': '" ""HTTP"""', 'type': 'xsd:string', 'id': 3689114062, 'device_id': '1'}, {'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'isWrite': 'N', 'value': '" ""HTTP"""', 'type': 'xsd:string', 'id': 3597079879, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'isWrite': 'Y', 'value': ' undef', 'type': 'xsd:string', 'id': 3178365523, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'isWrite': 'Y', 'value': ' undef', 'type': 'xsd:string', 'id': 780175649, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'isWrite': 'Y', 'value': '0', 'type': 'xsd:boolean', 'id': 1474958082, 'device_id': '1'}, {'name': 'InternetGatewayDevice.CaptivePortal.Status', 'isWrite': 'N', 'value': '" ""Disabled"""', 'type': 'xsd:string', 'id': 3746217516, 'device_id': '1'}, {'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'isWrite': 'Y', 'value': ' undef', 'type': 'xsd:string', 'id': 2795653965, 'device_id': '1'}, {'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'isWrite': 'Y', 'value': ' undef', 'type': 'xsd:string', 'id': 2900878207, 'device_id': '1'}  ... displaying 10 of 1126 total bound parameter sets ...  {'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'isWrite': 'N', 'value': '" ""Up"""', 'type': 'xsd:string', 'id': 3635307746, 'device_id': '1'}, {'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'isWrite': 'N', 'value': '1', 'type': 'xsd:unsignedInt', 'id': 2111996367, 'device_id': '1'})
+INFO     [2017-02-18 16:30:16,207] COMMIT
+INFO     [2017-02-18 16:32:24,960] Logging is init.....
+INFO     [2017-02-18 16:32:24,983] SHOW VARIABLES LIKE 'sql_mode'
+INFO     [2017-02-18 16:32:24,984] {}
+INFO     [2017-02-18 16:32:24,987] SELECT DATABASE()
+INFO     [2017-02-18 16:32:24,987] {}
+INFO     [2017-02-18 16:32:24,989] show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO     [2017-02-18 16:32:24,989] {}
+INFO     [2017-02-18 16:32:24,991] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-18 16:32:24,992] {}
+INFO     [2017-02-18 16:32:24,993] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO     [2017-02-18 16:32:24,993] {}
+INFO     [2017-02-18 16:32:24,994] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO     [2017-02-18 16:32:24,995] {}
+INFO     [2017-02-18 16:32:24,996] SHOW FULL TABLES FROM `emulation`
+INFO     [2017-02-18 16:32:24,997] {}
+INFO     [2017-02-18 16:32:25,010] SHOW CREATE TABLE `device`
+INFO     [2017-02-18 16:32:25,011] {}
+INFO     [2017-02-18 16:32:25,014] SHOW CREATE TABLE `device_command`
+INFO     [2017-02-18 16:32:25,014] {}
+INFO     [2017-02-18 16:32:25,018] SHOW CREATE TABLE `params`
+INFO     [2017-02-18 16:32:25,019] {}
+INFO     [2017-02-18 16:32:25,022] SHOW CREATE TABLE `params_default`
+INFO     [2017-02-18 16:32:25,023] {}
+INFO     [2017-02-18 16:32:25,025] SHOW CREATE TABLE `users`
+INFO     [2017-02-18 16:32:25,026] {}
+INFO     [2017-02-18 16:32:25,045] database is init.....
+INFO     [2017-02-18 16:32:25,045] Read file .../home/leo/emualator/model/sagemcom2804.dat
+INFO     [2017-02-18 16:32:25,260] BEGIN (implicit)
+INFO     [2017-02-18 16:32:25,289] INSERT INTO params_default (device_id, id, name, value, `isWrite`, type) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(isWrite)s, %(type)s)
+INFO     [2017-02-18 16:32:25,289] ({'id': 3689114062, 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' HTTP', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports'}, {'id': 3597079879, 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' HTTP', 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports'}, {'id': 3178365523, 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList'}, {'id': 780175649, 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL'}, {'id': 1474958082, 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:boolean', 'value': '0', 'name': 'InternetGatewayDevice.CaptivePortal.Enable'}, {'id': 3746217516, 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' Disabled', 'name': 'InternetGatewayDevice.CaptivePortal.Status'}, {'id': 2795653965, 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile'}, {'id': 2900878207, 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData'}  ... displaying 10 of 1126 total bound parameter sets ...  {'id': 3635307746, 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' Up', 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status'}, {'id': 2111996367, 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:unsignedInt', 'value': '1', 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries'})
+INFO     [2017-02-18 16:32:25,391] INSERT INTO params (device_id, id, name, value, type, `isWrite`, `isAdd`, add_path) VALUES (%(device_id)s, %(id)s, %(name)s, %(value)s, %(type)s, %(isWrite)s, %(isAdd)s, %(add_path)s)
+INFO     [2017-02-18 16:32:25,392] ({'id': 3689114062, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports', 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' HTTP', 'add_path': None, 'isAdd': None}, {'id': 3597079879, 'name': 'InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports', 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' HTTP', 'add_path': None, 'isAdd': None}, {'id': 3178365523, 'name': 'InternetGatewayDevice.CaptivePortal.AllowedList', 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'add_path': None, 'isAdd': None}, {'id': 780175649, 'name': 'InternetGatewayDevice.CaptivePortal.CaptivePortalURL', 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'add_path': None, 'isAdd': None}, {'id': 1474958082, 'name': 'InternetGatewayDevice.CaptivePortal.Enable', 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:boolean', 'value': '0', 'add_path': None, 'isAdd': None}, {'id': 3746217516, 'name': 'InternetGatewayDevice.CaptivePortal.Status', 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' Disabled', 'add_path': None, 'isAdd': None}, {'id': 2795653965, 'name': 'InternetGatewayDevice.DeviceConfig.ConfigFile', 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'add_path': None, 'isAdd': None}, {'id': 2900878207, 'name': 'InternetGatewayDevice.DeviceConfig.PersistentData', 'device_id': '1', 'isWrite': 'Y', 'type': 'xsd:string', 'value': ' undef', 'add_path': None, 'isAdd': None}  ... displaying 10 of 1126 total bound parameter sets ...  {'id': 3635307746, 'name': 'InternetGatewayDevice.WANDevice.2.WANEthernetInterfaceConfig.Status', 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:string', 'value': ' Up', 'add_path': None, 'isAdd': None}, {'id': 2111996367, 'name': 'InternetGatewayDevice.WANDeviceNumberOfEntries', 'device_id': '1', 'isWrite': 'N', 'type': 'xsd:unsignedInt', 'value': '1', 'add_path': None, 'isAdd': None})
+INFO     [2017-02-18 16:32:25,442] INSERT INTO device (id, name, status, connect_request_pid) VALUES (%(id)s, %(name)s, %(status)s, %(connect_request_pid)s)
+INFO     [2017-02-18 16:32:25,443] {'id': '1', 'status': 'off', 'connect_request_pid': None, 'name': 'SagemCom 2804'}
+INFO     [2017-02-18 16:32:25,483] COMMIT

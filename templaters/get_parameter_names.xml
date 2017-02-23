@@ -1,0 +1,20 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cwmp="urn:dslforum-org:cwmp-1-0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Header><cwmp:ID SOAP-ENV:mustUnderstand="1">{{cwmp_id}}</cwmp:ID>
+</SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <cwmp:GetParameterNamesResponse>
+        <ParameterList soapenc:arrayType="cwmp:ParameterInfoStruct[{{leng}}]">
+            {% for item in params %}
+            <ParameterInfoStruct>
+                <Name>{{item.name}}</Name>
+                {% if item.isWrite=='Y' %}
+                <Writable>true</Writable>
+                {% else %}
+                <Writable>false</Writable>
+                {% endif %}
+            </ParameterInfoStruct>
+            {% endfor %}
+        </ParameterList>
+        </cwmp:GetParameterNamesResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

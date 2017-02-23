@@ -1,0 +1,27 @@
+<div style="margin-top:10px;margin-bottom: 30px">
+    {% if content['device']['status']=='on' %}
+        <button type="button" class="btn btn-success disabled">Устройство включено</button>
+    {% else %}
+        <button type="button" class="btn btn-danger disabled">Устройство отключено</button>
+    {% endif %}
+</div>
+
+<div class="btn-group" role="group" aria-label="...">
+    {% set start_active='disabled' %}
+    {% set stop_active='disabled' %}
+    {% set reboot_active='disabled' %}
+    {% if content['device']['status']=='off' %}
+        {% set start_active='' %}
+        {% set stop_active='disabled' %}
+        {% set reboot_active='disabled' %}
+    {% else %}
+        {% set start_active='disabled' %}
+        {% set stop_active='' %}
+        {% set reboot_active='' %}
+    {% endif %}
+    <button type="button" class="btn btn-success {{start_active}}" onclick="power_on(1)">Включить</button>
+    <button type="button" class="btn btn-danger {{stop_active}}"  onclick="power_off(1)">Выключить</button>                            
+    <button type="button" class="btn btn-warning {{reboot_active}}">Перезапустить</button>                            
+</div>
+
+   

@@ -1,0 +1,19 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Команда</th>
+            <th>Статус</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for command in content['device_commands'] %}
+        <tr>
+            <td>{{command.id}}</td>
+            <td>{{command.command}}</td>
+            <td>{{command.status}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>

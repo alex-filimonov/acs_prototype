@@ -1,0 +1,16 @@
+<form method="POST" action="/param/save" name="param_form" id="param_form">
+    <input type="hidden" name="device_id" value="1">
+    {% for param in content['params'] %}
+            <div class="form-group">
+                <label for="">{{param.name}}</label>
+                <div class="row">
+                   <div class="col-sm-10">
+                        <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+                   </div>
+                   <div class="col-sm-2">
+                    <button type="button"  class="btn btn-default" onclick="save_param(1)">Записать</button>
+                   </div>
+                </div>
+            </div>
+    {% endfor %}
+</form>

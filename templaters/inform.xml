@@ -1,0 +1,58 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cwmp="urn:dslforum-org:cwmp-1-0">
+	<SOAP-ENV:Header>
+		<cwmp:ID SOAP-ENV:mustUnderstand="1">{{cwmp_id}}</cwmp:ID>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<cwmp:Inform>
+			<DeviceId>
+				<Manufacturer>{{params['InternetGatewayDevice.DeviceInfo.Manufacturer'].value}}</Manufacturer>
+				<OUI>{{params['InternetGatewayDevice.DeviceInfo.ManufacturerOUI'].value}}</OUI>
+				<ProductClass>{{params['InternetGatewayDevice.DeviceInfo.ProductClass'].value}}</ProductClass>
+				<SerialNumber>{{params['InternetGatewayDevice.DeviceInfo.SerialNumber'].value}}</SerialNumber>
+			</DeviceId>
+			<Event SOAP-ENC:arrayType="cwmp:EventStruct[1]">
+				<EventStruct>
+					<EventCode>{{event}}</EventCode>
+					<CommandKey/>
+				</EventStruct>
+			</Event>
+			<MaxEnvelopes>1</MaxEnvelopes>
+			<CurrentTime>{{date}}</CurrentTime>
+			<RetryCount>1</RetryCount>
+			<ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[8]">
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.ManagementServer.ParameterKey</Name>
+					<Value xsi:type="{{params['InternetGatewayDevice.ManagementServer.ParameterKey'].type}}">{{params['InternetGatewayDevice.ManagementServer.ParameterKey'].value}}</value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.ManagementServer.ConnectionRequestURL</Name>
+					<Value xsi:type="xsd:string">{{params['InternetGatewayDevice.ManagementServer.ConnectionRequestURL'].value}}</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceSummary</Name>
+					<Value xsi:type="xsd:string">InternetGatewayDevice:1.1[](Baseline:1, EthernetLAN:1, USBLAN:1, WiFiLAN:1, ADSLWAN:1, Time:1, IPPing:1, ATMLoopback:1, DSLDiagnostics:1, DeviceAssociation:1)</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.SpecVersion</Name>
+					<Value xsi:type="xsd:string">{{params['InternetGatewayDevice.DeviceInfo.SpecVersion'].value}}</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.HardwareVersion</Name>
+					<Value xsi:type="xsd:string">{{params['InternetGatewayDevice.DeviceInfo.HardwareVersion'].value}}</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.SoftwareVersion</Name>
+					<Value xsi:type="xsd:string">{{params['InternetGatewayDevice.DeviceInfo.SoftwareVersion'].value}}</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.ProvisioningCode</Name>
+					<Value xsi:type="xsd:string"/>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>{{param_tr69_interface.name}}</Name>
+					<Value xsi:type="xsd:string">{{param_tr69_interface.value}}</Value>
+				</ParameterValueStruct>
+			</ParameterList>
+		</cwmp:Inform>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

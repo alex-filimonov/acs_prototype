@@ -1,0 +1,54 @@
+<form method="POST" action="/param/all_save" name="params" id="main_param_form">
+    <input type="hidden" name="device_id" value="1">
+    {% for param in content['params'] %}
+        {% if param.name=='InternetGatewayDevice.DeviceInfo.Manufacturer' %}
+            <div class="form-group">
+                <label for="">Производитель:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+        {% if param.name=='InternetGatewayDevice.DeviceInfo.ManufacturerOUI' %}
+            <div class="form-group">
+                <label for="">Производитель OUI:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+        {% if param.name=='InternetGatewayDevice.DeviceInfo.ModelName' %}
+            <div class="form-group">
+                <label for="">Модель устройства:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+        {% if param.name=='InternetGatewayDevice.DeviceInfo.SerialNumber' %}
+            <div class="form-group">
+                <label for="">Серийный номер:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+        {% if param.name=='InternetGatewayDevice.ManagementServer.URL' %}
+            <div class="form-group">
+                <label for="">ACS URL:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+        {% if param.name=='InternetGatewayDevice.ManagementServer.ConnectionRequestURL' %}
+            <div class="form-group">
+                <label for="">Connection request URL:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+        {% if param.name=='InternetGatewayDevice.ManagementServer.ConnectionRequestUsername' %}
+            <div class="form-group">
+                <label for="">Connection request user:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+        {% if param.name=='InternetGatewayDevice.ManagementServer.ConnectionRequestPassword' %}
+            <div class="form-group">
+                <label for="">Connection request password:</label>
+                <input type="text" class="form-control" name="{{param.name}}" placeholder="" value="{{param.value}}">
+            </div>
+        {% endif %}
+    {% endfor %}
+  <button type="button" id="button_save_main_param" class="btn btn-default" onclick="save_main_param(1)">Записать</button>
+</form>

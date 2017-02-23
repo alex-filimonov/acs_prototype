@@ -1,0 +1,164 @@
+<script>
+    $(document).ready(function(){
+        refresh_all_for_device(1);
+    });
+</script>
+
+<div class="row">
+   <div class="col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-sm-8"
+                      <h1 class="panel-title">Список устройств</h1>
+                    </div>
+                    <div class="col-sm-4" style="align-items: left">
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">Добавить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                   <div class="col-sm-1 col_device_head">
+                   </div>
+                   <div class="col-sm-7 col_device_head">
+                        <h4>Название утройства</h4>
+                   </div>
+                   <div class="col-sm-4 col_device_head">
+                   </div>
+                </div>
+                {% for device in content['devices'] %}
+                <div id="device_table">
+                    <div class="row">
+                        <div class="col-sm-1 col_device">
+                                <input type="radio" name="device" checked="checked">
+                        </div>
+                        <div class="col-sm-7 col_device">
+                                {{device.name}}
+                        </div>
+                        <div class="col-sm-4 col_device">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default">Редактировать</button>
+                                <button type="button" class="btn btn-default">Удалить</button>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                
+            </div>
+          </div>       
+    </div>
+</div>
+
+<div class="row">
+   <div class="col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+
+                <div class="row">
+                    <div class="col-sm-7">
+                          <h3 class="panel-title">Управление</h3>
+                    </div>
+                    <div class="col-sm-5">
+                        <button type="button" id="start_stop_time_button" class="btn btn-warning" onclick="start_time_refresh(1)">Автоматическое обновление</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                   <div class="col-sm-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <h3 class="panel-title">Основное управление</h3>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <button type="button" class="btn btn-default" onclick="refresh_device(1)">Обновить</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="panel-body">
+                                <div id="panel_mng">
+                                    Асинхронный запрос ...
+                                </div>
+                            </div>
+                        </div>       
+                   </div>
+
+                   <div class="col-sm-3">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <h3 class="panel-title">Список команд</h3>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <button type="button" class="btn btn-default" onclick="refresh_device_command(1)">Обновить</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="panel-body" style="max-height: 600px; overflow-y: scroll;">
+                                <div id="panel_device_command">
+                                    Асинхронный запрос ...
+                                </div>
+                            </div>
+                        </div>       
+                   </div>
+
+                   <div class="col-sm-5">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <h3 class="panel-title">Основные параметры</h3>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <button type="button" class="btn btn-default" onclick="refresh_device_main_param(1)">Обновить</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="panel-body">
+                                <div id="panel_device_main_param">
+                                    Асинхронный запрос ...
+                                </div>
+                            </div>
+                        </div>       
+                   </div>
+                </div>
+
+                <div class="row">
+                   <div class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <h3 class="panel-title">Все параметры</h3>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <button type="button" class="btn btn-default" onclick="refresh_device_all_param(1)" >Обновить</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="panel-body">
+                                <div id="panel_device_all_param">
+                                    Асинхронный запрос ...
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+
+            </div>
+          </div>       
+    </div>
+</div>
+

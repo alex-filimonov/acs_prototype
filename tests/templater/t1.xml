@@ -1,0 +1,58 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cwmp="urn:dslforum-org:cwmp-1-0">
+	<SOAP-ENV:Header>
+		<cwmp:ID SOAP-ENV:mustUnderstand="1">[%model.id%]</cwmp:ID>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<cwmp:Inform>
+			<DeviceId>
+				<Manufacturer>[% model.${'InternetGatewayDevice.DeviceInfo.Manufacturer'}.value %]</Manufacturer>
+				<OUI>00259E</OUI>
+				<ProductClass>HG8245H</ProductClass>
+				<SerialNumber>[% model.${'InternetGatewayDevice.DeviceInfo.SerialNumber'}.value %]</SerialNumber>
+			</DeviceId>
+			<Event SOAP-ENC:arrayType="cwmp:EventStruct[1]">
+				<EventStruct>
+					<EventCode>1 BOOT</EventCode>
+					<CommandKey/>
+				</EventStruct>
+			</Event>
+			<MaxEnvelopes>1</MaxEnvelopes>
+			<CurrentTime>2014-10-29T16:24:21+00:00</CurrentTime>
+			<RetryCount>1</RetryCount>
+			<ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[8]">
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.ManagementServer.ParameterKey</Name>
+					<Value xsi:type="xsd:string"/>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.ManagementServer.ConnectionRequestURL</Name>
+					<Value xsi:type="xsd:string">[% model.${'InternetGatewayDevice.ManagementServer.ConnectionRequestURL'}.value %]</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceSummary</Name>
+					<Value xsi:type="xsd:string">InternetGatewayDevice:1.1[](Baseline:1, EthernetLAN:1, USBLAN:1, WiFiLAN:1, ADSLWAN:1, Time:1, IPPing:1, ATMLoopback:1, DSLDiagnostics:1, DeviceAssociation:1)</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.SpecVersion</Name>
+					<Value xsi:type="xsd:string">1.0</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.HardwareVersion</Name>
+					<Value xsi:type="xsd:string">494.E</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.SoftwareVersion</Name>
+					<Value xsi:type="xsd:string">[% model.${'InternetGatewayDevice.DeviceInfo.SoftwareVersion'}.value %]</Value>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.DeviceInfo.ProvisioningCode</Name>
+					<Value xsi:type="xsd:string"/>
+				</ParameterValueStruct>
+				<ParameterValueStruct>
+					<Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ExternalIPAddress</Name>
+					<Value xsi:type="xsd:string">[% model.${'InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ExternalIPAddress'}.value %]</Value>
+				</ParameterValueStruct>
+			</ParameterList>
+		</cwmp:Inform>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
