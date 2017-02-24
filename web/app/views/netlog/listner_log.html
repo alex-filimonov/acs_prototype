@@ -1,0 +1,16 @@
+{% for item in content['listner_log'] %}
+    <div class="row">
+        <div class="col-sm-12">
+            {{item.name}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div style="overflow-x: scroll;">
+                    <pre>
+                    {{item.data}}
+                    </pre>
+            </div>
+        </div>
+    </div>
+{% endfor %}

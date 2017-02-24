@@ -1,0 +1,23 @@
+<div>
+    <p>Статус клиента TR-069 </p>
+    {% set class_label='label-info' %}
+    {% if content['device']['client_TR069_status']=='Offline' %}
+            {% set class_label='label-danger' %}
+    {% endif %}
+    <span class="label {{class_label}}">
+        {{content['device']['client_TR069_status']}}
+    </span>
+</div>
+<div style="margin-top: 30px">
+    <p>Статус connection request listner </p>
+    {% set class_label_listner='label-warning' %}
+    {% if content['device']['listner_connect_request']=='Offline' %}
+            {% set class_label_listner='label-danger' %}
+    {% endif %}
+    {% if content['device']['listner_connect_request']=='Started' %}
+            {% set class_label_listner='label-success' %}
+    {% endif %}
+    <span class="label {{class_label_listner}}">
+        {{content['device']['listner_connect_request']}}
+    </span>
+</div>
