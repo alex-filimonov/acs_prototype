@@ -12,6 +12,8 @@ import lib.Client.Commands.Reboot as Reboot
 import lib.Client.Commands.FactoryReset as FactoryReset
 import lib.Client.Commands.Download as Download
 import lib.Client.Commands.GetParameterNames as GetParameterNames
+import os
+import sys
 
 
 
@@ -46,6 +48,17 @@ class Client():
             return (ip,port)
         return (None,None)
 
+    def erase_dump(self):
+        init=Init.Init()
+        dump_path=init.config['DUMP']['dump_dir']
+        self.http.index=1
+        self.http.dump_path=dump_path
+        files=os.listdir(path=dump_path)
+        for file in files:
+            if len(re.findall(r'client',file))>0:
+                os.remove(dump_path+'/'+file)
+
+
     def get_command(self):
         ret=self.http.response()
         parse=Parser.Parser()
@@ -54,6 +67,10 @@ class Client():
         
 
     def start(self):
+       
+        self.erase_dump()
+
+
         (acs_server_ip,acs_server_port)=self.get_acs_url()
 
         if acs_server_ip==None:

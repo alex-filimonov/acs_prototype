@@ -10,6 +10,8 @@ class Device(Base):
     name = Column(String)
     status = Column(Enum('on','off'))
     connect_request_pid = Column(String)
+    client_TR069_status = Column(String)
+    listner_connect_request = Column(String)
     def __repr__(self):
         return "<Device(name='%s')>" % (self.name)
 

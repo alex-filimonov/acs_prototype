@@ -33,6 +33,8 @@ class Controller():
             return device_command.device_command()
         if controller_name=='param':
             return param.param()
+        if controller_name=='netlog':
+            return netlog.netlog()
         return None
 
     def parser_url(self,url):

@@ -19,29 +19,40 @@ class Device():
     def connect_request(self,device,command):
         init=Init.Init()
         command.status='done'
-        init.database.session.commit();
-        client=Client.Client()
-        client.start()
+        init.database.session.commit()
+        self.start_tr069_client(device)
+
+    def start_tr069_client(self,device):
+        init=Init.Init()
+        try:
+            client=Client.Client()
+            client.start()
+            device.client_TR069_status="Link to ACS ip:"+str(client.acs_ip)+" port "+str(client.acs_port)+" ...OK"
+            return True
+        except:
+            device.client_TR069_status="Fail connect to ACS ip"+str(client.acs_ip)+" port "+str(client.acs_port)
+            return False
+        return True
 
     def power_on(self,device,command):
         pid=os.fork()
         if pid==0:
             # дочерний процесс
-            listner=Listner.ConnectRequestListner()
-            listner.start()
-            sys.exit()
+            try:
+                listner=Listner.ConnectRequestListner()
+                listner.deviced_id=device.id
+                listner.start()
+                sys.exit()
+            except:
+                pass
         # родитель
         init=Init.Init()
         device.status="on"
         device.connect_request_pid=str(pid)
         init.database.session.commit()
         command.status='done'
-        init.database.session.commit();
-        try:
-            client=Client.Client()
-            client.start()
-        except:
-            pass
+        self.start_tr069_client(device)
+        init.database.session.commit()
 
 
     def power_off(self,device,command):
@@ -54,6 +65,8 @@ class Device():
         except:
             pass
         device.connect_request_pid="0"
+        device.client_TR069_status="Offline"
+        device.listner_connect_request="Offline"
         init.database.session.commit()
         command.status='done'
         init.database.session.commit();

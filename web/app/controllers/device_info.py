@@ -27,4 +27,14 @@ class device_info():
         content['device']=device
         return self.layout.render_ajax('/device_info/index.html',content=content)
 
+    def net_status(self):
+        content={}
+        content['input_data']=self.input_data
+        device_id=content['input_data']['cgi']['device_id'].value
+
+        init=Init.Init()
+        query_devices=init.database.session.query(db.Device.Device).filter(db.Device.Device.id==device_id)
+        device=query_devices.one()
+        content['device']=device
+        return self.layout.render_ajax('/device_info/net_status.html',content=content)
 

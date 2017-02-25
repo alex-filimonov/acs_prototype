@@ -8,6 +8,17 @@ function refresh_device(device_id){
     })
 }
 
+function refresh_net(device_id){
+    $.ajax({
+        url:'/device_info/net_status?device_id='+device_id,
+        dataType:"text",
+        success:function(data,textStatus){
+            $('#panel_net').html(data)
+        }
+    })
+}
+
+
 function save_main_param(device_id){
     $('#button_save_main_param').addClass( 'disabled' )
     var msg=$('#main_param_form').serialize();
@@ -75,6 +86,7 @@ function start_time_refresh(device_id){
         time_id=setInterval(function() {
                 refresh_device(device_id);
                 refresh_device_command (device_id);
+                refresh_net(device_id)
                 }, 2000);
     } else {
         $('#start_stop_time_button').removeClass('btn-success');
@@ -90,6 +102,7 @@ function refresh_all_for_device(device_id){
     refresh_device_command (device_id);
     refresh_device_main_param (device_id);
     refresh_device_all_param(device_id);
+    refresh_net(device_id)
 }
 
 
@@ -112,4 +125,27 @@ function power_off(device_id){
         }
     })
 }
+
+
+function refresh_client_log(device_id){
+    $.ajax({
+        url:'/netlog/client_log?device_id='+device_id,
+        dataType:"text",
+        success:function(data,textStatus){
+            $('#client_log').html(data)
+        }
+    })
+}
+
+function refresh_listner_log(device_id){
+    $.ajax({
+        url:'/netlog/listner_log?device_id='+device_id,
+        dataType:"text",
+        success:function(data,textStatus){
+            $('#listner_request_log').html(data)
+        }
+    })
+}
+
+
 
